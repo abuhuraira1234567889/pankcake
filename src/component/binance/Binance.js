@@ -7,7 +7,7 @@ const binance = () => {
         <>
             <div className="win-wrapper">
 
-                <div className="win-content container">
+                <div className="win-content ">
                     <div className="binance">
                         <p>Dec 14-20,2021</p>
                         <h1>Binance Fan Token Trading Competition</h1>
