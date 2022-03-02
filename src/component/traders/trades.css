@@ -38,13 +38,17 @@
     background-color: antiquewhite;
     padding-top: 10px;
     padding-left: 20px;
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 
 }
 
 .trader-btns{
     padding-left: 10px;
     margin-bottom: 20px;
+}
+.traders-detail{
+    display: flex;
+    justify-content: flex-end;
 }
 @media (max-width:767px) {
     .trader-content{

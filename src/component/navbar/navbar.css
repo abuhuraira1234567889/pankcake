@@ -57,7 +57,7 @@
       
     }
     .btn-nav{
-        display:none;
+        display:none !important;
     }
     .nav-logo{
         flex-direction: column;

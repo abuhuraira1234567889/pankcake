@@ -138,6 +138,10 @@ const Traders = () => {
         <>
             <div className="traders-wrapper">
                 <div className="container">
+                    <div className="traders-detail">
+                        
+
+
                     <div className="trader-content">
                         
                         <div className="trader-top">
@@ -232,6 +236,8 @@ const Traders = () => {
 ..
 
                     </div>
+
+                </div>
 
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import Footer2 from "../footer2/Footer2"
 import "./detail.css"
 
 
@@ -50,6 +51,7 @@ const Detail = () => {
         <>
             <div className="detail-wrapper">
                 <div className="container">
+                    <div className="detail-content-wrapper">
                     <div className="detail-head">
                         <h1>Detail</h1>
                     </div>
@@ -80,12 +82,12 @@ const Detail = () => {
                     }
 
 
-
+</div>
 
                 </div>
             </div>
 
-
+            <Footer2/>
 
         </>
     );

@@ -1,7 +1,37 @@
+.detail-wrapper{
+    margin-top: 30px;
+}
+
 .detail-body{
     display: flex;
     justify-content: space-between;
 }
 .detail-body p{
     cursor: pointer;
+}
+
+.detail-content-wrapper{
+    background-color: rgb(193, 255, 255);
+    border-radius: 20px;
+    width: 50%;
+    
+}
+.detail-head{
+    margin-bottom: 30px;
+    background-color: aquamarine;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+
+}
+.detail-content{
+    margin-bottom: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+@media (max-width:767px) {
+    .detail-content-wrapper{
+        width: 100%;
+    }
+
+    
 }
