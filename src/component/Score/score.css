@@ -1,9 +1,6 @@
-
-
-
-
-
-
+.score-wrapper{
+    position: relative;
+}
 .score-profile-img{
     display: flex;
     justify-content: center;
@@ -48,19 +45,23 @@
     flex-direction: column;
     text-align: center;
     
-    background-color: rgb(255, 255, 255);
-    margin-left: 201px;
-    margin-right: 252px;
-    border-radius: 50px;
+   
+   
+    
 }
 .rank-wrapper{
     background-color: rgb(154, 159, 208);
     padding-top: 194px;
     padding-bottom: 103px;
+    position: relative;
+    display: flex;
+    justify-content:center ;
 }
 .rank-content{
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 46px;
 
 }
 .rank-content h3{
@@ -98,4 +99,9 @@
     padding: 0px 24px;
     background-color: rgb(31, 199, 212);
     color: white;
+}
+
+.score-trophy{
+    position: absolute;
+    top: 469px;
 }

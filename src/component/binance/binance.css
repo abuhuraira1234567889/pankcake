@@ -96,6 +96,7 @@
     border-radius: 24px;
     padding: 1px 1px 3px;
     padding: 24px;
+    z-index: 1;
 }
 .win-finish-card button{
     background-color: rgb(233, 234, 235);

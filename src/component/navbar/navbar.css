@@ -1,5 +1,5 @@
 .navbar-wrapper{
-    margin-bottom: 50px;
+    margin-bottom: 8px;
 }
 
 
@@ -7,20 +7,26 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 40px;
+    
+    margin-top: 20px;
 }
 .nav-links{
     display: flex;
     justify-content: space-between;
     
-    margin-top: 10px;
+    margin-top: 4px;
+   
     width: 20%;
 
 }
 .nav-links a,.nav-logo a{
     text-decoration: none;
     color: black;
+    margin-left: 20px;
+}
+
+.nav-logo{
+    display: flex;
 }
 .lines{
     display: none;
@@ -37,8 +43,12 @@
     .lines{
         display: block;
         cursor: pointer;
+        padding-top: 10px;
+        margin-right: 20px;
     }
     .nav-links{
+        margin-left: 20px;
+        margin-top: 20px;
         flex: 100%;
         display: flex;
         flex-direction: column;
@@ -46,5 +56,42 @@
         
       
     }
+    .btn-nav{
+        display:none;
+    }
+    .nav-logo{
+        flex-direction: column;
+    }
+    .nav-links a,.nav-logo a{
+        margin-bottom: 20px;
+    }
     
+}
+
+.svg-icon{
+    width: 150px;
+}
+.btn-nav{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn-nav div {
+    margin-right: 10px;
+}
+.btn-nav p{
+    margin: 0;
+}
+.btn-nav button{
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 16px;
+    background-color: rgb(31, 199, 212);
+    color: white;
+    height: 32px
 }

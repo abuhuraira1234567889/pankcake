@@ -139,6 +139,7 @@ const Traders = () => {
             <div className="traders-wrapper">
                 <div className="container">
                     <div className="trader-content">
+                        
                         <div className="trader-top">
                             <h2>Top Traders</h2>
                             <p>Since Start of competation</p>
@@ -159,6 +160,7 @@ const Traders = () => {
                                             <h3>{items.colno}</h3>
                                             <p>{items.coldata1}</p>
                                             <p>{items.coldata2}</p>
+                                            
                                         </div>
                                     )
 
@@ -227,7 +229,7 @@ const Traders = () => {
 
 
 
-
+..
 
                     </div>
 
