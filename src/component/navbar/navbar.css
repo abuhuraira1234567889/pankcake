@@ -18,7 +18,7 @@
     width: 20%;
 
 }
-.nav-links a{
+.nav-links a,.nav-logo a{
     text-decoration: none;
     color: black;
 }

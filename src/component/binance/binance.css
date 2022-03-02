@@ -1,0 +1,163 @@
+.binance p{
+    color: rgb(122, 110, 170);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 16px;
+
+}
+.binance h1{
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    padding-right: 20px;
+}
+.binance h2{
+  
+    color: rgb(255, 216, 0);
+    font-size: 20px;
+}
+.binance h3{
+    color: rgb(215, 202, 236);
+    font-size: 16px;
+}
+
+
+
+
+
+.win-content{
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 50px;
+  
+    padding-bottom: 100px;
+
+}
+.finished{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.finished-text{
+    display: flex;
+    flex-direction: column;
+
+}
+.finished-p{
+    display: flex;
+}
+
+
+.finished-p svg{
+    margin-right: 20px;
+    fill: rgb(122, 110, 170);
+}
+.finished-p p{
+    margin-right: 20px;
+    color: rgb(122, 110, 170);
+}
+.finish-end p{
+    color: rgb(83, 222, 233);
+}
+.win-wrapper{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+
+    background: radial-gradient(329.58% 50% at 50% 50%, rgb(59, 40, 100) 0%, rgb(25, 19, 38) 100%);
+    border-radius: 0 0 10% 10%;
+    
+    
+}
+.clock svg{
+    height: 64px;
+    width: 64px;
+}
+
+.finished-text-p{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255, 216, 0);
+
+}
+.finished-p p{
+    margin-right: 20px;
+}
+.win-finish-card{
+    text-align: center;
+    background: linear-gradient(rgb(118, 69, 217) 0%, rgb(69, 42, 122) 100%);
+    border-radius: 24px;
+    padding: 1px 1px 3px;
+    padding: 24px;
+}
+.win-finish-card button{
+    background-color: rgb(233, 234, 235);
+    border-color: rgb(233, 234, 235);
+    box-shadow: none;
+    color: rgb(189, 194, 196);
+    
+    border: 0px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    padding: 0px 24px;
+}
+
+.svg-img-1{
+    margin-right: 10px;
+    margin-bottom: 6px;
+    height: 32px;
+    width: auto;
+    fill: rgb(255, 178, 55);
+
+}
+.svg-img-2{
+    margin-left: 10px;
+    margin-bottom: 6px;
+    height: 32px;
+    width: auto;
+    fill: rgb(255, 178, 55);
+}
+
+.win-finish-card h2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+} 
+
+@media (min-width:991px) {
+    .win-finish-card{
+        position: absolute;
+        top: 340px;
+    }
+    
+}
+
+.custom-shape-divider-bottom-1645531652 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1645531652 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 44px;
+    
+}
+
+.custom-shape-divider-bottom-1645531652 .shape-fill {
+    fill: rgb(204, 216, 240);
+}

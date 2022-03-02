@@ -1,0 +1,7 @@
+.detail-body{
+    display: flex;
+    justify-content: space-between;
+}
+.detail-body p{
+    cursor: pointer;
+}

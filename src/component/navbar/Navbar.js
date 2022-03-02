@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./navbar.css";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
     const [slide, setSlide] = useState(false);
@@ -23,8 +24,9 @@ const Navbar = () => {
                 <div className="container">
                     <div className="nav-main">
                         <div className="nav-logo">
+                            <Link to="/win">
                             <h2>Navbar</h2>
-
+                            </Link>
                         </div>
 
 
@@ -38,9 +40,10 @@ const Navbar = () => {
 
                         {(slide || screen > 767) && (
                             <div className="nav-links">
-                                <a href="">Home</a>
-                                <a href="">Win</a>
-                                <a href="">Trade</a>
+
+                                <Link to="/card">Farm</Link>
+                                <Link to="/win">Win</Link>
+                                <Link to="/trade">Trade</Link>
 
 
                             </div>
