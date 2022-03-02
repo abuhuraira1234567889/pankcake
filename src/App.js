@@ -18,6 +18,12 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
+          <Route path="/" element={
+             <Win/>
+
+          }
+          />
+
           <Route path="card" element={
             <Card2 />
 
