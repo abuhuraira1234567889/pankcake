@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .nav-links{
     display: flex;
@@ -25,7 +25,9 @@
     margin-left: 20px;
 }
 .nav-links a:hover{
-   
+   background-color: rgb(85, 61, 61);
+   border-radius: 10px;
+   padding: 1px;
     
     color: rgb(41, 41, 90);
     
