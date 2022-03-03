@@ -1,98 +1,108 @@
-.traders-wrapper{
-    padding-top: 131px;
-    background-color: antiquewhite;
-    padding-bottom: 107px;
-    position: relative;
+.traders-wrapper {
+  padding-top: 131px;
+  background-color: antiquewhite;
+  padding-bottom: 107px;
+  position: relative;
 }
 
-
-.trader-col{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
+.trader-col {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.trader-btns button{
-    
-
-    justify-content: center;
-    cursor: pointer;
-    border: 0px;
-    outline: 0px;
-    -webkit-box-flex: 1;
-    flex-grow: 1;
-    padding: 8px;
-    border-radius: 16px 16px 0px 0px;
-    font-size: 16px;
-    font-weight: 600;
-    color: rgb(122, 110, 170);
-    background-color: rgb(238, 234, 244);
-    margin-right: 20px;
+.trader-btns button {
+  justify-content: center;
+  cursor: pointer;
+  border: 0px;
+  outline: 0px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  padding: 8px;
+  border-radius: 16px 16px 0px 0px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(122, 110, 170);
+  background-color: rgb(238, 234, 244);
+  margin-right: 20px;
 }
 
-.trader-btns button:hover{
-    background-color: rgb(122, 110, 170);
-    color: black;
+.trader-btns button:hover {
+  background-color: rgb(122, 110, 170);
+  color: black;
 }
 
-.trader-content{
-    width: 50%;
-    background-color: cadetblue;
-    
-    border-radius: 30px;
-}
-.trader-top{
-    background-color: antiquewhite;
-    padding-top: 10px;
-    padding-left: 20px;
-    border-radius: 20px 20px 0px 0px;
+.trader-content {
+  width: 50%;
+  background-color: cadetblue;
 
+  border-radius: 30px;
 }
-
-.trader-btns{
-    padding-left: 10px;
-    margin-bottom: 20px;
-}
-.traders-detail{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.box-content svg{
-    width: 300px
-    
+.trader-top {
+  background-color: antiquewhite;
+  padding-top: 10px;
+  padding-left: 20px;
+  border-radius: 20px 20px 0px 0px;
 }
 
-.traders-banner-svg{
-    position: absolute;
-    top: 510px;
-    display: flex;
+.trader-btns {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.traders-detail {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box-content svg {
+  width: 300px;
+}
+
+.traders-banner-svg {
+  position: absolute;
+  top: 510px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  right: -10px;
+}
+@media (max-width: 767px) {
+  .trader-content {
     width: 100%;
-    justify-content: space-evenly;
-    right: -10px;
-
+  }
+  .box-content svg {
+    width: 200px;
+  }
+  .trader-btns button {
+    margin-right: 5px;
+  }
 }
-@media (max-width:767px) {
-    .trader-content{
-        width: 100%;}
-        .box-content svg{
-            width: 200px
-            
-        }
-        .trader-btns button{
-            margin-right: 5px;
-        }
-    
+@media (max-width: 500px) {
+  .trader-btns button {
+    margin-right: 2px;
+  }
+  .box-content {
+    display: none;
+  }
 }
-@media (max-width:500px) {
-    .trader-btns button{
-        margin-right: 2px;
-       
-    }
-    .box-content{
-        display: none;
-    }
 
-    
+.custom-shape-divider-bottom-1646289441 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1646289441 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 72px;
+}
+
+.custom-shape-divider-bottom-1646289441 .shape-fill {
+  fill: #ffffff;
 }
