@@ -558,51 +558,46 @@ const Traders = () => {
                 <button onClick={() => toggletab(3)}>Flippers</button>
                 <button onClick={() => toggletab(4)}>Cakers</button>
               </div>
-              {toggle === 1
-                ? total.map((items, index) => {
-                    return (
-                      <div className="trader-col">
-                        <h3>{items.colno}</h3>
-                        <p>{items.coldata1}</p>
-                        <p>{items.coldata2}</p>
-                      </div>
-                    );
-                  })
-                : console.log("ok")}
-              {toggle === 2
-                ? strom.map((items, index) => {
-                    return (
-                      <div className="trader-col">
-                        <h3>{items.colno}</h3>
-                        <p>{items.coldata1}</p>
-                        <p>{items.coldata2}</p>
-                      </div>
-                    );
-                  })
-                : console.log("ok")}
-              {toggle === 3
-                ? flipers.map((items, index) => {
-                    return (
-                      <div className="trader-col">
-                        <h3>{items.colno}</h3>
-                        <p>{items.coldata1}</p>
-                        <p>{items.coldata2}</p>
-                      </div>
-                    );
-                  })
-                : console.log("ok")}
-              {toggle === 4
-                ? cakers.map((items, index) => {
-                    return (
-                      <div className="trader-col">
-                        <h3>{items.colno}</h3>
-                        <p>{items.coldata1}</p>
-                        <p>{items.coldata2}</p>
-                      </div>
-                    );
-                  })
-                : console.log("ok")}
-              ..
+              {toggle === 1 &&
+                total.map((items, index) => {
+                  return (
+                    <div className="trader-col">
+                      <h3>{items.colno}</h3>
+                      <p>{items.coldata1}</p>
+                      <p>{items.coldata2}</p>
+                    </div>
+                  );
+                })}
+              {toggle === 2 &&
+                strom.map((items, index) => {
+                  return (
+                    <div className="trader-col">
+                      <h3>{items.colno}</h3>
+                      <p>{items.coldata1}</p>
+                      <p>{items.coldata2}</p>
+                    </div>
+                  );
+                })}
+              {toggle === 3 &&
+                flipers.map((items, index) => {
+                  return (
+                    <div className="trader-col">
+                      <h3>{items.colno}</h3>
+                      <p>{items.coldata1}</p>
+                      <p>{items.coldata2}</p>
+                    </div>
+                  );
+                })}
+              {toggle === 4 &&
+                cakers.map((items, index) => {
+                  return (
+                    <div className="trader-col">
+                      <h3>{items.colno}</h3>
+                      <p>{items.coldata1}</p>
+                      <p>{items.coldata2}</p>
+                    </div>
+                  );
+                })}
             </div>
           </div>
 
