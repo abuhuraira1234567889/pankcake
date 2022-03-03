@@ -172,3 +172,20 @@
     font-size: 30px;
   }
 }
+@media (min-width: 1505px) {
+  .win-finish-card {
+    top: 252px;
+  }
+}
+@media (max-width: 991px) {
+  .win-finish-card {
+    position: absolute;
+    top: 408px;
+  }
+}
+@media (max-width: 575px) {
+  .win-finish-card {
+    position: absolute;
+    top: 461px;
+  }
+}

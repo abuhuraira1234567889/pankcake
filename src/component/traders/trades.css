@@ -25,7 +25,7 @@
   font-weight: 600;
   color: rgb(122, 110, 170);
   background-color: rgb(238, 234, 244);
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .trader-btns button:hover {
@@ -40,7 +40,7 @@
   border-radius: 30px;
 }
 .trader-top {
-  background-color: antiquewhite;
+  background-color: #a9967d;
   padding-top: 10px;
   padding-left: 20px;
   border-radius: 20px 20px 0px 0px;

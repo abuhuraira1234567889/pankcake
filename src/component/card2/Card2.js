@@ -99,7 +99,7 @@ const Card2 = () => {
           {arr2?.map((item, index) => {
             return (
               <div
-                className={state === item.id ? "card2 " : "card3"}
+                className={state === item.id ? "card3 " : "card2"}
                 key={index}
               >
                 <div className="container card2-body-container">

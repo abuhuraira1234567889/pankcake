@@ -28,6 +28,9 @@
 
   color: rgb(41, 41, 90);
 }
+.btn-nav button:hover {
+  background-color: rgb(71, 54, 54);
+}
 
 .nav-logo {
   display: flex;
@@ -45,6 +48,11 @@
   color: azure;
   margin-top: 2px;
 }
+
+.btn-nav div {
+  cursor: pointer;
+}
+
 @media (max-width: 767px) {
   .nav-main {
     height: auto;
