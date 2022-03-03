@@ -1,5 +1,8 @@
 .traders-wrapper{
-    margin-top: 131px;
+    padding-top: 131px;
+    background-color: antiquewhite;
+    padding-bottom: 107px;
+    position: relative;
 }
 
 
@@ -28,6 +31,11 @@
     margin-right: 20px;
 }
 
+.trader-btns button:hover{
+    background-color: rgb(122, 110, 170);
+    color: black;
+}
+
 .trader-content{
     width: 50%;
     background-color: cadetblue;
@@ -48,24 +56,42 @@
 }
 .traders-detail{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box-content svg{
+    width: 300px
+    
+}
+
+.traders-banner-svg{
+    position: absolute;
+    top: 510px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    right: -10px;
+
 }
 @media (max-width:767px) {
     .trader-content{
         width: 100%;}
-
+        .box-content svg{
+            width: 200px
+            
+        }
+        .trader-btns button{
+            margin-right: 5px;
+        }
     
 }
-@media (max-width:400px) {
+@media (max-width:500px) {
     .trader-btns button{
-        margin-right: 5px;
+        margin-right: 2px;
+       
     }
-
-    
-}
-@media (max-width:306px) {
-    .trader-btns button{
-        padding: 2px;
+    .box-content{
+        display: none;
     }
 
     

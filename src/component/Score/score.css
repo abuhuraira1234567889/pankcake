@@ -104,4 +104,8 @@
 .score-trophy{
     position: absolute;
     top: 469px;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }

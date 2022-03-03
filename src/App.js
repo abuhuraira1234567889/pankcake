@@ -1,5 +1,5 @@
 
-
+import "./App.css"
 import Card2 from "./component/card2/Card2";
 import Navbar from "./component/navbar/Navbar";
 import {
