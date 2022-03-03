@@ -1,51 +1,49 @@
-.footer2-content{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.footer2-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.footer2-wrapper{
-    background-color: rgb(39, 38, 44);
-    position: relative;
-    
+.footer2-wrapper {
+  background-color: rgb(39, 38, 44);
+  position: relative;
 }
-.footer2-content a{
-    text-decoration: none;
-    color: rgb(244, 238, 255);
-    
+.footer2-content a {
+  text-decoration: none;
+  color: rgb(244, 238, 255);
 }
-@media (max-width:560px) {
-    .footer2-content{
-        flex-direction: column;
-    }
-    .content-header{
-        margin-top: 50px;
-    }
-    .social-icon img{
-        margin-right:10px !important;
-        width: 30px !important;
-        
-    }
-    
+.footer2-content a:hover {
+  color: rgb(154, 106, 255);
 }
-.content-header{
-    color:rgb(154, 106, 255);
-    font-size: 25px;
-    font-weight: 700;
+@media (max-width: 560px) {
+  .footer2-content {
+    flex-direction: column;
+  }
+  .content-header {
+    margin-top: 50px;
+  }
+  .social-icon img {
+    margin-right: 10px !important;
+    width: 30px !important;
+  }
 }
-.online-store{
-    color: rgb(255, 178, 55);
+.content-header {
+  color: rgb(154, 106, 255);
+  font-size: 25px;
+  font-weight: 700;
 }
-.footer2-content h5{
-    margin-bottom: 20px;
+.online-store {
+  color: rgb(255, 178, 55);
+}
+.footer2-content h5 {
+  margin-bottom: 20px;
 }
 
-.social-icon img{
-    margin-right: 20px;
-    width: 40px;
-    padding-bottom: 20px;
-    
+.social-icon img {
+  margin-right: 20px;
+  width: 40px;
+  padding-bottom: 20px;
 }
-.social-icon{
-    fill: rgb(184, 173, 210);
+.social-icon {
+  fill: rgb(184, 173, 210);
 }

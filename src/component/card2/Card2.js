@@ -174,9 +174,15 @@ const Card2 = () => {
                 </div>
                 {state === item.id && (
                   <div className=" container detail-para">
-                    <p>HEllo</p>
-                    <p>Hello</p>
-                    <p>Hello</p>
+                    <div className="liquidity">
+                      <p>Total Liquidity</p>
+                      <p>$2050,636</p>
+                    </div>
+                    <div className="lauidity-tag">
+                      <a href="">Get Cake BNB</a>
+                      <a href="">Get Cake BNB</a>
+                      <a href="">Get Cake BNB</a>
+                    </div>
                   </div>
                 )}
               </div>
