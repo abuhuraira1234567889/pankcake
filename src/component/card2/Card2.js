@@ -98,7 +98,10 @@ const Card2 = () => {
         <div className="container card2-container">
           {arr2?.map((item, index) => {
             return (
-              <div className="card2" key={index}>
+              <div
+                className={state === item.id ? "card2 " : "card3"}
+                key={index}
+              >
                 <div className="container card2-body-container">
                   <div className="card2-header">
                     <div className="card2-img">
