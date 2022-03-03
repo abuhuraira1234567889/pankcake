@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [slide, setSlide] = useState(false);
+
   const [screen, setScreen] = useState(window.innerWidth);
+
   const navOpen = () => {
     setSlide(!slide);
   };

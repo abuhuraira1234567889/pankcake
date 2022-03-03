@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../images/down.png";
 import Footer2 from "../footer2/Footer2";
 import "./Card2.css";
 
 const Card2 = () => {
-  // const [data, setData] = useState([])
   const [state, setState] = useState(0);
+
   const arr2 = [
     {
       id: 1,

@@ -93,6 +93,7 @@ const cakers = [
 ];
 const Traders = () => {
   const [toggle, setToggle] = useState(1);
+
   const toggletab = (index) => {
     setToggle(index);
   };

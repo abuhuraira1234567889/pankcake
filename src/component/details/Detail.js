@@ -37,9 +37,11 @@ const faq = [
 
 const Detail = () => {
   const [show, setShow] = useState(0);
-  function showData(key) {
+
+  const showData = (key) => {
     show === key ? setShow(0) : setShow(key);
-  }
+  };
+
   return (
     <>
       <div className="detail-wrapper">
