@@ -99,9 +99,8 @@ const Card2 = () => {
     //  alert(key)
     arr2.map((edata) => {
       if (key === edata.id) {
-        console.log(edata.show, "before");
         edata.show = !edata.show;
-        console.log(edata.show, "after");
+
         return edata;
       }
     });
