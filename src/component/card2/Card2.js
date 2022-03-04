@@ -77,6 +77,21 @@ const Card2 = () => {
       show: false,
       data: "lkaCKXBaxbXBbx",
     },
+    {
+      id: 6,
+
+      img1: "https://bscinfo.wault.finance/images/tokens/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png?1632009600316",
+      img2: "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
+
+      cakehead: "Cake-BNB",
+      cakesubhead1: "core",
+      cakesubhead2: "40X",
+      apr: "36.13%",
+      earn: "cake +fees",
+      cakeearn: "000.0",
+      show: false,
+      data: "lkaCKXBaxbXBbx",
+    },
   ];
 
   function showData(key) {
